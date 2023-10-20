@@ -1,0 +1,36 @@
+<script type="text/javascript">
+
+var numero = prompt("Introduce un numero entero");
+
+var resultado = parImpar(numero);
+alert("El numero "+numero+" es "+resultado);
+
+function parImpar(numero) {
+  if(numero % 2 == 0) {
+    return "par";
+  }
+  else {
+    return "impar";
+  }
+}
+
+
+	var frutas = ["manzana", "banana", "naranja"];
+
+console.log(frutas[0]);
+console.log(frutas[1]);
+console.log(frutas[2]);
+
+
+//push 
+frutas.push("pomelo")
+console.log(frutas)
+
+//bucle 
+for (indice=0;indice < 2;indice++) {
+	console.log("frutas"); 
+}
+
+//lenght 
+var ultimoElemento = frutas[frutas.length-1]
+console.log(ultimoElemento);
